@@ -76,6 +76,9 @@ The visualization-related settings are defined in:
 
 - socialVisualization_config.json
 
+## Web Viewer Use
+- Combine any of the .csv files with the socialVisualization_config.json to visualize the simulation of different scenarios in the web viewer.
+
 ## Output Files
 
 - Simulation results are written to the log/ directory as CSV files.
