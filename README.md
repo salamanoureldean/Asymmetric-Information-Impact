@@ -106,3 +106,28 @@ This repository also includes recorded simulation videos:
 - The shell scripts provided in the repository are the recommended way to run the predefined experiments.
 - If cmake or make is not found, install them before attempting to build.
 - If $CADMIUM is not set, Cadmium is not configured correctly in the environment.
+
+## Asymmetric Cell-DEVS extension
+
+This repository now includes a first asymmetric Cell-DEVS implementation path for the term project.
+
+New source files:
+- include/socialAsymmCell.hpp
+- include/socialAsymmCoupled.hpp
+- main/main_asymm.cpp
+
+New asymmetric scenario files:
+- config/social_asymm_two_communities.json
+- config/social_asymm_bridge.json
+- config/social_asymm_influencers.json
+
+New run scripts:
+- ./run_two_communities_asymm.sh
+- ./run_bridge_asymm.sh
+- ./run_influencers_asymm.sh
+
+Notes:
+- The asymmetric version follows the Cadmium / asymmetric Cell-DEVS workflow from the course paper: cells are defined in C++ and per-cell weighted neighborhoods are defined in JSON.
+- The new rule uses weighted exposure from neighbors in state 1 or 2.
+- By default the implementation normalizes active incoming weight by total incoming weight before applying thresholds.
+- The asymmetric executable is built as bin/social_network_impact_asymm.

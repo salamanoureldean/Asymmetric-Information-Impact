@@ -1165,7 +1165,7 @@
     },
     "c_5_5": {
       "state": {
-        "value": 1
+        "value": 0
       },
       "neighborhood": {
         "c_4_5": 1.0,
@@ -1209,7 +1209,7 @@
     },
     "c_5_9": {
       "state": {
-        "value": 0
+        "value": 1
       },
       "neighborhood": {
         "c_4_9": 1.0,
@@ -2045,7 +2045,7 @@
     },
     "c_9_5": {
       "state": {
-        "value": 0
+        "value": 1
       },
       "neighborhood": {
         "c_8_5": 1.0,
@@ -2364,7 +2364,7 @@
     },
     "c_10_14": {
       "state": {
-        "value": 0
+        "value": 1
       },
       "neighborhood": {
         "c_9_14": 0.3,
@@ -3200,7 +3200,7 @@
     },
     "c_14_10": {
       "state": {
-        "value": 0
+        "value": 1
       },
       "neighborhood": {
         "c_13_10": 1.0,
@@ -3244,7 +3244,7 @@
     },
     "c_14_14": {
       "state": {
-        "value": 1
+        "value": 0
       },
       "neighborhood": {
         "c_13_14": 1.0,
