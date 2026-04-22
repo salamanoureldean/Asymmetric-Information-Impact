@@ -64,7 +64,8 @@ You will also need:
 - From the project root, build the simulation with: ./build_sim.sh or bash build_sim.sh depending on your environment.
 
 ## Run Predefined Scenarios
-Execute the helper scripts for each scenario to build and run the simulation:
+PREFERRED:
+In WSL, execute the helper scripts for each scenario to build and run the simulation:
 
 - `./run_base_scenario.sh` - Base scenario with standard configuration
 - `./run_boundary_seed_scenario.sh` - Boundary seed scenario
@@ -94,7 +95,7 @@ Visualization settings are defined in:
 
 - `socialVisualization_config.json`
 
-Configuration generators (Python scripts) for each scenario are available in the `generators/` directory if you need to create custom configurations.
+Configuration JSON generators (Python scripts) for each scenario are available in the `generators/`
 
 ## Web Viewer Visualization
 
@@ -114,12 +115,10 @@ These files contain the recorded state evolution of the simulation and can be us
 ## Recorded Simulations
 
 The `Simulation_videos/` directory contains recorded simulation videos for the different scenarios.
-- edge_wrap_scenario_simulation.webm
-- single_seed_scenario_simulation.webm
 
 ## Notes
 - The build/ and bin/ folders are generated during compilation.
-- The shell scripts provided in the repository are the recommended way to run the predefined experiments.
+- The shell scripts provided in the repository are the way to run the predefined experiments.
 - If cmake or make is not found, install them before attempting to build.
 - If $CADMIUM is not set, Cadmium is not configured correctly in the environment.
 
